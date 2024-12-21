@@ -1,0 +1,19 @@
+#states{
+    background-image: url(images/1g.jpg);
+    display: flex;
+    justify-content: center;
+    min-height: 200px;
+    align-items: center;
+    
+    margin-top: 5px;
+}
+.states a{
+    text-decoration: none;
+}
+#states div{
+    
+height: 270px;
+width: 335px;
+margin: 30px;
+margin-left: 180PX;
+}
