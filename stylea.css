@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+p{
+    padding-top: 180px;
+    font-size: 30px;
+    color:antiquewhite;
+    text-align: center;
+}
 
 .main{
     width: auto;
