@@ -195,4 +195,156 @@ margin-bottom: 5px;
     inherits: true;
     initial-value: 100vh;
   }
-  
+  @media (max-width: 768px) {
+    .navbar {
+        width: 100%;
+    }
+
+    .logo a {
+        font-size: 40px;
+    }
+
+    .menu {
+        width: 100%;
+        text-align: center;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    ul li {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .search {
+        width: 80%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .srch {
+        width: 80%;
+    }
+
+    .h h1 {
+        font-size: 50px;
+        margin-left: -30px;
+    }
+
+    .h h3 {
+        margin-left: -30px;
+    }
+
+    .h img {
+        display: none;
+        margin-left: 40%;
+        height: 350px;
+        width: 380px;
+    }
+.hd{
+    font-size: 10px;
+}
+    .footer h1, .footer h2, .footer h3, .footer h4 {
+        padding-left: 0;
+    }
+
+    #states {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    #states div {
+        width: 80%;
+        margin: 10px;
+    }
+
+    #container {
+        flex-direction: column;
+    }
+
+    #container div {
+        width: 80%;
+        margin: 10px;
+    }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+    .navbar {
+        width: 100%;
+    }
+
+    .logo a {
+        font-size: 25px;
+    }
+
+    .menu {
+        width: 100%;
+        text-align: center;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    ul li {
+        font-size: 12px;
+        margin-top: 8px;
+    }
+
+    .search {
+        width: 70%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .srch {
+        width: 70%;
+    }
+
+    .h h1 {
+        font-size: 35px;
+        margin-left: 0;
+    }
+
+    .h h3 {
+        margin-left: 0;
+    }
+
+    .h img {
+        margin-left: 0;
+        height: 300px;
+        width: 320px;
+    }
+    .hd{
+        font-size: 10px;
+    }
+    .par{
+        display: none;
+    }
+
+    .footer h1, .footer h2, .footer h3, .footer h4 {
+        padding-left: 0;
+    }
+
+    #states {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    #states div {
+        width: 100%;
+        margin: 10px;
+    }
+
+    #container {
+        flex-direction: column;
+    }
+
+    #container div {
+        width: 100%;
+        margin: 10px;
+    }
+}
